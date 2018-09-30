@@ -46,7 +46,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "Home"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
@@ -76,16 +76,16 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
+    title = "Dad's Carpentry"
+    subtitle = ""
     buttonText = "Tell me more"
 
 
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Full Range of Carpentry Services"
+    subtitle = "Serving Cape & Atlantic Counties"
 
     [[params.services.row]]
 

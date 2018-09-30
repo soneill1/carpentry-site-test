@@ -1,0 +1,44 @@
+backend:
+  name: git-gateway
+
+media_folder: "static/img" # Folder where user uploaded files should go
+public_folder: "img"
+
+collections: # A list of collections the CMS should be able to edit test
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "content/sections.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {label: Section1, name: section1, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Subtitle", name: "subtitle", widget: string},
+                {label: Tiles, name: tiles, widget: list, allow_add: false, fields: [
+                  {label: "Title", name: "title", widget: string},
+                  {label: "Icon", name: "icon", widget: image},
+                  {label: "Text", name: "text", widget: string},
+                  {label: "Url", name: "url", widget: string},
+                  {label: "ButtonText", name: "buttonText", widget: string}]}]}
+          - {label: Section2, name: section2, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Subtitle", name: "subtitle", widget: string},
+                {label: Features, name: features, widget: list, allow_add: false, fields: [
+                  {label: "Title", name: "title", widget: string},
+                  {label: "Text", name: "text", widget: string},
+                  {label: "Icon", name: "icon", widget: image}]}]}
+          - {label: Section3, name: section3, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Subtitle", name: "subtitle", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "ButtonText", name: "buttonText", widget: string},
+              {label: "ButtonLink", name: "buttonLink", widget: string}]}
+          - {label: Section4, name: section4, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Subtitle", name: "subtitle", widget: string},
+                {label: Clients, name: clients, widget: list, allow_add: false, fields: [
+                  {label: "Name", name: "name", widget: string},
+                  {label: "Quote", name: "quote", widget: string},
+                  {label: "Job", name: "job", widget: string},
+                  {label: "Img", name: "img", widget: image}]}]}
