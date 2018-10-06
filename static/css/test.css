@@ -38,10 +38,11 @@ input[type="submit"]:disabled {
 } */
 
 #phoneAndAddress {
-    margin-top: 25px;
+    margin-top: 10px;
     margin-bottom: 25px;
 }
 
 #contactForm {
+    margin-top:5px;
     margin-bottom: 35px;
 }
