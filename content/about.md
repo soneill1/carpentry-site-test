@@ -1,7 +1,7 @@
 ---
 about:
   title: About
-  subtitle: Lorem ipsum dolor sit amet consectetur.
+  # subtitle: Lorem ipsum dolor sit amet consectetur.
   enable: true
   endpoint: Be part<br>of our<br>story!
   event:

@@ -36,3 +36,12 @@ input[type="submit"]:disabled {
 /* input[type=submit]:enabled {
     background: red;
 } */
+
+#phoneAndAddress {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#contactForm {
+    margin-bottom: 35px;
+}

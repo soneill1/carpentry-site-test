@@ -115,7 +115,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    #subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [params.portfolio.modal]
       client = "Client"
@@ -242,7 +242,7 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = "The best way to get in touch is to call our office number!"
     buttonText = "Send message"
     netlify = true
 
