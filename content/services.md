@@ -1,19 +1,19 @@
 ---
 services:
-  title: Full Range of Carpentry Services
+  title: Full Range of Carpentry and Handyman Services
   subtitle: Serving Cape & Atlantic Counties
   enable: true
   service:
-    - icon: /img/pencil-ruler.png
+    - icon: /img/saw.png
       description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. 1
-      title: E-Commerce
+      title: Home improvement
       url: #
-    - icon: /img/screwdriver.png
+    - icon: /img/drill.png
       description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-      title: Responsive Design
+      title: Remodeling
       url: #
-    - icon: /img/paint-roller.png
+    - icon: /img/paint-brush.png
       description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-      title: Web
+      title: Professional painting
       url: #
 ---
