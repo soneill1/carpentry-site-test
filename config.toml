@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://covetedscarpentry.netlify.com/"
+baseurl = "https://covetedcarpentry.netlify.com/"
 languageCode = "en-us"
 title = "Coveted Carpentry"
 theme = "hugo-agency-theme"
